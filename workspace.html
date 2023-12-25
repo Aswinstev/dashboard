@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="workspace.css">
+    <title>Team Management</title>
+    </head>
+
+<div class="container">
+    <h2>Create a New Workspace</h2>
+    <br>
+    <br>
+    <h2>Workspace Details</h2>
+    <form>
+       <label for="space-name">Space Name</label>
+       <input type="text" id="space-name" name="space-name" required>
+       <div class="workspace-type">
+         <input type="radio" id="public" name="workspace-type" value="public" checked>
+         <label for="public">Public to My Workspace</label><p>Spaces can be shared with the work network. You can assign members to tasks after creating a Space.</p>
+         <input type="radio" id="private" name="workspace-type" value="private">
+         <label for="private">Privet Workspace</label><p>Spaces are exclusively designated for user work, ensuring privacy and focus. You can assign tasks to yourself pn;y after creating a Space.</p>
+       </div>
+       <div class="form-actions">
+         <button type="submit">Create Workspace</button>
+         <button type="reset">Cancel</button>
+       </div>
+    </form>
+   </div>
